@@ -2,3 +2,4 @@
 src={logo}  :  adentro se introduce el nombre del import de donde proviene la imagen
 <></> : Elemento padre de etiqueta vacia, es un fragment para no colicionar con codigos
 archivo.jsx : contiene import React, al final export default .nombrearchivo.; se puede llamar a otro archivo importandolo
+a:hover{}  :  al pasar el mouse por la letra cambia de color
