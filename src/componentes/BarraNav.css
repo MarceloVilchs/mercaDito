@@ -1,4 +1,4 @@
-nav ul li a{
+nav ul li{
     text-decoration: none;
     display: inline-block;
     color: aliceblue;
@@ -16,4 +16,11 @@ li{
 
 a:hover{
     color: aqua;
+}
+
+.footer{
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    color: aliceblue;
 }

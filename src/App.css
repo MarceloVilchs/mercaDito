@@ -35,6 +35,10 @@
 
 h1{
   text-align: center;
+  color: black;
+  background-color: yellow;
+  padding: 25px;
+  margin: 0%;
 }
 
 
@@ -43,3 +47,38 @@ h1{
   background-color: black;
   padding: 15px;
 }
+
+a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+nav ul li{
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+}
+
+nav ul{
+  text-align: center;
+}
+
+.list{
+  padding: 15px;
+  font-size: x-large;
+}
+
+.list:hover{
+    color: aqua;
+}
+
+.registro{
+  color: black;
+  text-align: center;
+  padding: 25px;
+  background-color: bisque;
+  margin: 0%;
+}
+
+
+

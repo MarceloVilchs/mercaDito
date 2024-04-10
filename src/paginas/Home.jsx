@@ -1,12 +1,12 @@
 import React from "react";
-import BarraNav from "../componentes/BarraNav";
+
 
 
 function Home(paramas){
 
         return(
             <div>
-                <BarraNav/>
+                <h1>Cucarachas</h1>
             </div>
         );
 }
