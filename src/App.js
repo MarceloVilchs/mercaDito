@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
-import cartel from './imagenes/mlPNG.png';
+import cartel from './imagenes/mercaditoJPG.jpg';
 import Rutas from './componentes/Rutas';
 import Home from './paginas/Home';
 import Registro from './paginas/Registro';
@@ -25,7 +25,7 @@ function App() {
           </li>
         </ul>
       </nav>
-      <img src={cartel} className='AppLogo' alt='Cartel mercado libre'/>
+      <img src={cartel} id='foto' alt='Cartel mercado libre'/>
       <Rutas />
       <Footer/>
     </div>

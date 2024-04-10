@@ -1,12 +1,14 @@
 import React from "react";
+import Productos from "../componentes/Productos";
 
 
 
 function Home(paramas){
 
         return(
-            <div>
-                <h1>Cucarachas</h1>
+            <div className="foco">
+                <h1>Productos</h1>
+                <Productos/>
             </div>
         );
 }

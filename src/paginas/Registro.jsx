@@ -3,8 +3,8 @@ import React from "react";
 function Registro() {
     return (
         <>
-            <h1>Regístrate</h1>
             <div className="registro">
+            <h1>Regístrate</h1>
                 <form action="#" method="GET">
                     <label>
                         Nombre:
@@ -24,7 +24,7 @@ function Registro() {
                     <br />
                     <input type="password" name="password" required placeholder="password" />
                     <br />
-                    <input type="submit" name="submit" />
+                    <button type="submit" name="submit" id="botonComprar">Enviar</button>
                 </form>
             </div>
         </>

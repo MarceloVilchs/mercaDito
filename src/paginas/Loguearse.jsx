@@ -4,8 +4,9 @@ import React from "react";
 function Loguearse() {
 
     return (<div>
-        <h1>Login</h1>
+        
         <div className="registro">
+        <h1>Login</h1>
             <form action="#" method="GET">
                 <label>
                     Email:
@@ -19,7 +20,7 @@ function Loguearse() {
                 <br />
                 <input type="password" name="password" required placeholder="password" />
                 <br />
-                <input type="submit" />
+                <button type="submit" id="botonComprar">Enviar</button> <br />
             </form>
         </div>
     </div>

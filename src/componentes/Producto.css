@@ -1,0 +1,8 @@
+.contenedorProducto{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.nombreYprecio{
+    text-align: center;
+}
