@@ -109,7 +109,17 @@ nav ul{
     border-radius: 5px;
     background-color: black;
     color: white;
+    border-radius: 5px;
 
+}
+
+button{
+  display: inline;
+  width: 100px;
+  height: 35px;
+  margin-top: 15px;
+  background-color: black;
+  color: white;
 }
 
 #botonComprar:hover{
@@ -117,6 +127,7 @@ nav ul{
   background-color: aliceblue;
   color: black;
   font-weight: bold;
+  border-radius: 5px;
 }
 
 #foto {
@@ -126,8 +137,14 @@ nav ul{
 }
 
 .foco{
- margin: -5px;
  background-color: yellow;
+ width: 100%; /* Establece el ancho al 100% */
+  height: auto;
 }
 
+input{
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
 
+}

@@ -1,10 +1,7 @@
-import React from "react";
 
-export function getAllProductos(){
+export function getAllProductos(buscar){
 
-    let id= "MLA1051";
-
-    return fetch(`https://api.mercadolibre.com/sites/MLA/search?category=${id}`).then(res=>res.json());
+    return fetch(`https://api.mercadolibre.com/sites/MLA/search?q=${buscar}`).then(res=>res.json());
 }
 
 export default getAllProductos;
